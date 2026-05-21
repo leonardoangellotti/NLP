@@ -1,0 +1,850 @@
+NOT 1 OR 0	0
+1 AND 0	0
+0 AND NOT 0	0
+NOT 1 AND 0 OR 1 AND 0	0
+B -> E; B	E
+NOT 0 AND 0	1
+0 AND 1 OR NOT 1 AND NOT 1	0
+C AND NOT C; C	Contradiction
+0 AND 0	0
+NOT 1 OR 1	0
+D -> F; F -> E; D	E
+0 AND 0 OR 1 AND 1	1
+0 AND 1	0
+D -> E; E -> A; A -> B; D	B
+0 AND NOT 0 OR NOT 1 AND 0	0
+C -> E; E -> A; C	A
+NOT 1 AND 0	1
+B -> C; C -> A; A -> E; B	E
+1 AND 1 OR 0 AND 0	1
+NOT 0 AND 0 OR NOT 0	1
+F -> A; F	A
+B AND NOT B; B	Contradiction
+C -> E; E -> D; C	D
+0 OR 1	1
+1 AND NOT 1	0
+D AND NOT D; D	Contradiction
+0 AND 1 OR 1 AND 0	0
+E -> F; E	F
+A AND NOT A; A	Contradiction
+1 AND NOT 0 OR NOT 1	1
+1 AND 0 OR 1	1
+0 OR 0	0
+B -> C; B	C
+E -> D; D -> F; E	F
+B -> E; E -> F; F -> A; B	A
+NOT 1 AND 1	0
+B -> D; D -> C; B	C
+A -> D; D -> B; B -> E; A	E
+0 AND 1 OR NOT 0 AND 1	1
+0 AND 1 OR NOT 1	0
+1 AND 0 OR 1 AND 0	0
+0 AND NOT 0 OR 0	0
+1 AND 0 OR 0 AND 0	0
+1 AND 0 OR 0	0
+A -> D; A	D
+1 AND 0 OR NOT 0	1
+F -> C; C -> E; E -> D; F	D
+0 AND 1 OR 1 AND NOT 0	1
+1 AND 0 OR 1 AND 1	1
+F -> B; B -> C; C -> E; F	E
+NOT 0 AND NOT 0 OR 0 AND NOT 1	1
+C -> A; A -> B; C	B
+0 AND NOT 0 OR 1 AND 0	0
+B -> E; E -> F; F -> C; B	C
+E -> B; B -> D; E	D
+A -> E; E -> D; D -> F; A	F
+1 AND NOT 0 OR 1	1
+1 AND 0 OR 1 AND NOT 1	0
+0 AND 0 OR 0 AND NOT 0	0
+C -> E; E -> D; D -> B; C	B
+E -> F; F -> C; C -> A; E	A
+NOT 0 AND NOT 0 OR NOT 0	1
+1 AND NOT 1 OR 0	0
+1 AND 1 OR NOT 0	1
+F -> B; B -> E; E -> C; F	C
+E -> F; F -> B; E	B
+1 AND NOT 0 OR 1 AND 1	1
+1 OR 0	1
+NOT 0 OR 0	1
+D -> C; C -> F; D	F
+NOT 1 AND 1 OR NOT 0	1
+0 AND 0 OR NOT 1 AND NOT 1	0
+1 AND 1 OR 0	1
+D -> B; B -> E; E -> A; D	A
+NOT 1 AND 1 OR 1 AND 0	0
+1 OR 1	1
+D -> C; D	C
+A -> E; E -> D; A	D
+NOT 0 AND 1 OR 1 AND 0	1
+1 AND NOT 0 OR 0	1
+A -> C; C -> F; A	F
+NOT 0 AND 1	1
+D -> B; B -> A; D	A
+0 AND 1 OR 0 AND NOT 0	0
+0 AND 1 OR 0 AND 0	0
+NOT 0 OR 1	0
+D -> F; D	F
+F -> B; B -> A; A -> D; F	D
+C -> B; C	B
+NOT 0 AND 0 OR 0 AND NOT 0	0
+F -> C; F	C
+F -> D; D -> C; F	C
+E -> C; E	C
+0 AND 1 OR 1	1
+0 AND 1 OR 0	0
+B -> C; C -> E; B	E
+C -> F; F -> B; C	B
+F -> C; C -> D; F	D
+D -> A; A -> C; D	C
+E -> F; F -> C; E	C
+NOT 1 AND 1 OR 0 AND 1	0
+1 AND 1 OR 0 AND 1	1
+A -> D; D -> C; A	C
+0 AND 0 OR 0 AND 1	0
+0 AND 1 OR NOT 0 AND NOT 1	0
+1 AND 1 OR 1	1
+C -> F; F -> D; D -> B; C	B
+NOT 0 AND NOT 1 OR 1 AND NOT 1	0
+1 AND 1 OR NOT 1	1
+0 AND 0 OR 1	1
+B -> D; B	D
+D -> C; C -> B; D	B
+B -> D; D -> F; B	F
+0 AND NOT 1 OR NOT 0	1
+C -> F; C	F
+F -> E; E -> B; B -> A; F	A
+D -> B; D	B
+0 AND NOT 1 OR 0 AND 0	0
+C -> B; B -> D; D -> F; C	F
+E -> B; B -> D; D -> F; E	F
+D -> C; C -> E; E -> B; D	B
+1 AND 1 OR 1 AND 1	1
+B -> C; C -> F; F -> D; B	D
+0 AND NOT 0 OR NOT 1 AND 1	0
+E -> A; A -> C; C -> D; E	D
+NOT 1 AND 0 OR NOT 1 AND 1	0
+F -> E; E -> D; D -> A; F	A
+NOT 0 AND NOT 1 OR 0 AND NOT 1	0
+NOT 0 AND NOT 1 OR 0	0
+NOT 1 AND NOT 0 OR 0	0
+0 AND 1 OR 1 AND 1	1
+F -> B; B -> C; F	C
+0 AND 0 OR 1 AND NOT 0	1
+NOT 1 AND NOT 1 OR NOT 0 AND 1	1
+1 AND 1 OR 0 AND NOT 1	1
+NOT 0 AND 1 OR NOT 1	1
+NOT 1 AND 0 OR 0 AND 0	0
+D -> A; A -> B; D	B
+A -> B; A	B
+B -> C; C -> A; B	A
+A -> E; E -> B; B -> F; A	F
+NOT 1 AND 1 OR 1	1
+0 AND 1 OR 0 AND 1	0
+1 AND 0 OR NOT 1	0
+0 AND NOT 1 OR 0 AND NOT 0	0
+B -> D; D -> A; A -> F; B	F
+B -> A; A -> D; B	D
+C -> B; B -> A; A -> E; C	E
+1 AND 1	1
+E -> A; A -> D; E	D
+D -> B; B -> E; D	E
+D -> E; E -> B; B -> A; D	A
+B -> A; A -> D; D -> E; B	E
+B -> E; E -> A; B	A
+0 AND NOT 1 OR 0	0
+A -> E; A	E
+NOT 0 AND 1 OR 0	1
+A -> C; A	C
+NOT 1 AND 0 OR 1	1
+0 AND 0 OR 1 AND NOT 1	0
+A -> B; B -> E; E -> C; A	C
+NOT 0 AND 1 OR 1	1
+F -> E; F	E
+1 AND 1 OR NOT 0 AND NOT 1	1
+NOT 1 AND 0 OR 0 AND NOT 0	0
+0 AND NOT 1 OR 1 AND NOT 1	0
+NOT 1 AND 0 OR 0	0
+NOT 0 AND 1 OR NOT 0 AND NOT 1	1
+NOT 0 AND NOT 0 OR 1 AND 1	1
+A -> B; B -> F; A	F
+A -> E; E -> B; A	B
+F -> B; F	B
+A -> C; C -> F; F -> D; A	D
+0 AND NOT 0 OR NOT 0 AND NOT 1	0
+1 AND NOT 1 OR NOT 0	1
+F -> E; E -> A; F	A
+1 AND NOT 0 OR NOT 0	1
+F -> A; A -> C; C -> B; F	B
+1 AND 0 OR NOT 1 AND NOT 0	0
+D -> E; D	E
+NOT 1 AND NOT 1 OR NOT 1	0
+NOT 0 AND 1 OR NOT 0 AND 0	1
+NOT 1 AND 0 OR 1 AND NOT 0	1
+D -> F; F -> B; B -> E; D	E
+C -> B; B -> D; C	D
+F -> A; A -> E; E -> C; F	C
+NOT 0 AND NOT 0 OR 0	1
+0 AND 1 OR NOT 0	1
+0 AND 1 OR 0 AND NOT 1	0
+NOT 0 AND 1 OR 0 AND 1	1
+B -> F; F -> D; B	D
+A -> F; F -> E; E -> B; A	B
+E -> D; E	D
+B -> D; D -> C; C -> F; B	F
+E -> B; B -> F; F -> A; E	A
+1 AND NOT 0 OR 0 AND 1	1
+B -> D; D -> E; E -> C; B	C
+B -> A; A -> E; B	E
+NOT 1 AND 0 OR NOT 1	0
+0 AND 0 OR NOT 1 AND 1	0
+NOT 1 AND 1 OR 0 AND NOT 0	0
+NOT 1 AND NOT 0 OR NOT 1	0
+1 AND 0 OR NOT 1 AND 1	0
+A -> F; F -> D; D -> E; A	E
+1 AND NOT 0 OR NOT 0 AND 1	1
+NOT 1 AND 0 OR NOT 1 AND NOT 1	0
+D -> A; A -> B; B -> F; D	F
+NOT 1 AND NOT 0 OR 1	1
+0 AND 1 OR NOT 0 AND NOT 0	1
+F -> D; D -> B; B -> A; F	A
+NOT 1 AND NOT 1 OR 0	0
+C -> D; D -> B; C	B
+E -> A; E	A
+F -> E; E -> C; C -> A; F	A
+B -> A; A -> D; D -> F; B	F
+D -> B; B -> E; E -> C; D	C
+NOT 1 AND 0 OR 1 AND 1	1
+0 AND NOT 0 OR 1	1
+NOT 1 AND 1 OR 0	0
+A -> E; E -> D; D -> C; A	C
+B -> A; A -> E; E -> C; B	C
+NOT 0 AND 0 OR NOT 0 AND 1	1
+1 AND 1 OR NOT 0 AND NOT 0	1
+1 AND 0 OR NOT 1 AND NOT 1	0
+B -> C; C -> F; F -> E; B	E
+NOT 0 AND 0 OR NOT 1	0
+0 AND 1 OR NOT 1 AND 1	0
+C -> A; A -> E; E -> F; C	F
+F -> B; B -> E; F	E
+C -> A; A -> E; C	E
+A -> D; D -> E; E -> F; A	F
+F -> A; A -> B; B -> D; F	D
+D -> A; A -> E; D	E
+F -> E; E -> B; F	B
+0 AND 0 OR 0	0
+0 AND 1 OR NOT 1 AND 0	0
+1 AND 0 OR NOT 0 AND 0	0
+1 AND 1 OR NOT 1 AND 1	1
+1 AND 0 OR NOT 0 AND 1	1
+D -> A; D	A
+A -> F; F -> D; A	D
+NOT 0 AND 1 OR NOT 1 AND NOT 0	1
+A -> C; C -> E; A	E
+NOT 0 AND 0 OR 0 AND 1	0
+0 AND NOT 0 OR NOT 0	1
+B -> A; B	A
+A -> E; E -> F; F -> D; A	D
+0 AND 0 OR NOT 0	1
+F -> A; A -> E; F	E
+A -> C; C -> E; E -> B; A	B
+NOT 0 AND NOT 0 OR 1 AND NOT 0	1
+NOT 1 AND NOT 1 OR 1	1
+0 AND NOT 0 OR 0 AND 1	0
+B -> E; E -> C; C -> D; B	D
+C -> F; F -> D; D -> A; C	A
+NOT 0 AND 0 OR NOT 0 AND NOT 1	0
+F -> C; C -> E; F	E
+B -> F; F -> E; B	E
+NOT 1 AND 1 OR NOT 1 AND 1	0
+1 AND NOT 1 OR 1	1
+NOT 0 AND 0 OR 1	1
+1 AND 0 OR 0 AND NOT 1	0
+F -> C; C -> B; F	B
+B -> D; D -> E; E -> F; B	F
+0 AND 1 OR 1 AND NOT 1	0
+C -> E; E -> F; C	F
+D -> F; F -> C; C -> B; D	B
+C -> D; C	D
+0 AND NOT 1 OR NOT 1 AND NOT 1	0
+A -> C; C -> D; A	D
+F -> A; A -> D; D -> C; F	C
+C -> D; D -> E; E -> F; C	F
+B -> F; F -> E; E -> C; B	C
+C -> D; D -> A; C	A
+B -> E; E -> F; B	F
+0 AND 0 OR NOT 1	0
+B -> F; B	F
+0 AND NOT 1 OR 1 AND 0	0
+0 AND NOT 1 OR NOT 1 AND 1	0
+A -> C; C -> B; B -> F; A	F
+NOT 1 AND 0 OR 0 AND 1	0
+NOT 0 AND NOT 1 OR 1	1
+1 AND NOT 0 OR 0 AND 0	1
+A -> F; A	F
+C -> E; E -> D; D -> A; C	A
+1 AND NOT 1 OR 0 AND 1	0
+0 AND 0 OR 0 AND 0	0
+C -> A; C	A
+NOT 1 AND NOT 1 OR NOT 1 AND NOT 1	0
+NOT 1 AND 1 OR 1 AND NOT 0	1
+0 AND NOT 1 OR 1 AND 1	1
+NOT 0 AND NOT 1 OR NOT 0	1
+D -> E; E -> B; D	B
+NOT 1 AND 1 OR NOT 1	0
+C -> E; C	E
+D -> A; A -> F; F -> B; D	B
+NOT 1 AND NOT 1 OR NOT 0 AND 0	0
+0 AND NOT 1 OR 1 AND NOT 0	1
+E -> B; B -> C; E	C
+E -> A; A -> C; C -> F; E	F
+1 AND 0 OR NOT 1 AND 0	0
+0 AND NOT 1 OR NOT 1	0
+F -> B; B -> E; E -> D; F	D
+B -> D; D -> F; F -> C; B	C
+NOT 0 AND 0 OR 0 AND 0	0
+F -> E; E -> C; F	C
+E -> C; C -> D; E	D
+1 AND NOT 0 OR NOT 0 AND NOT 0	1
+B -> F; F -> C; C -> A; B	A
+NOT 1 AND NOT 0 OR 1 AND NOT 0	1
+C -> D; D -> B; B -> E; C	E
+A -> C; C -> E; E -> F; A	F
+E -> D; D -> A; E	A
+F -> D; D -> A; F	A
+E -> B; E	B
+NOT 0 AND 0 OR 0	0
+C -> B; B -> A; A -> D; C	D
+B -> A; A -> F; B	F
+A -> E; E -> C; A	C
+NOT 0 AND 0 OR NOT 0 AND 0	0
+D -> F; F -> B; D	B
+D -> A; A -> F; D	F
+NOT 1 AND NOT 0 OR 1 AND 0	0
+F -> C; C -> B; B -> A; F	A
+F -> E; E -> A; A -> B; F	B
+F -> A; A -> B; F	B
+E -> D; D -> B; B -> C; E	C
+F -> D; F	D
+F -> A; A -> C; F	C
+1 AND NOT 1 OR 1 AND 1	1
+A -> F; F -> B; A	B
+1 AND NOT 1 OR 0 AND 0	0
+C -> B; B -> E; C	E
+A -> D; D -> B; A	B
+E -> F; F -> A; A -> D; E	D
+0 AND 0 OR 1 AND 0	0
+0 AND NOT 0 OR NOT 1 AND NOT 0	0
+C -> B; B -> F; F -> A; C	A
+A -> E; E -> B; B -> D; A	D
+D -> C; C -> F; F -> B; D	B
+C -> F; F -> B; B -> A; C	A
+1 AND 0 OR NOT 0 AND NOT 0	1
+0 AND 0 OR NOT 0 AND 1	1
+1 AND NOT 1 OR 1 AND 0	0
+E -> D; D -> B; B -> F; E	F
+NOT 1 AND 1 OR 0 AND 0	0
+B -> C; C -> A; A -> D; B	D
+A -> F; F -> C; C -> B; A	B
+NOT 0 AND NOT 0 OR 1 AND 0	1
+NOT 0 AND 1 OR NOT 0	1
+0 AND NOT 1 OR 0 AND 1	0
+NOT 1 AND NOT 0 OR 1 AND 1	1
+D -> B; B -> F; D	F
+1 AND 1 OR 1 AND 0	1
+C -> D; D -> E; C	E
+E -> F; F -> B; B -> C; E	C
+1 AND 0 OR 0 AND 1	0
+0 AND NOT 1 OR 1	1
+F -> B; B -> D; D -> A; F	A
+F -> C; C -> A; F	A
+E -> A; A -> C; C -> B; E	B
+NOT 1 AND NOT 0 OR 0 AND 0	0
+0 AND NOT 0 OR 0 AND NOT 1	0
+0 AND NOT 0 OR 0 AND 0	0
+1 AND 1 OR NOT 0 AND 1	1
+0 AND NOT 0 OR NOT 1	0
+E -> C; C -> A; A -> B; E	B
+F -> C; C -> B; B -> D; F	D
+C -> A; A -> F; F -> B; C	B
+0 AND 0 OR NOT 0 AND NOT 1	0
+A -> B; B -> C; C -> D; A	D
+NOT 1 AND NOT 1 OR 0 AND 0	0
+A -> D; D -> F; A	F
+B -> E; E -> A; A -> C; B	C
+B -> E; E -> D; D -> A; B	A
+0 AND 1 OR NOT 1 AND NOT 0	0
+1 AND NOT 1 OR NOT 1 AND 0	0
+NOT 1 AND 1 OR NOT 0 AND NOT 0	1
+0 AND 1 OR NOT 0 AND 0	0
+0 AND NOT 0 OR NOT 0 AND 0	0
+D -> B; B -> C; C -> A; D	A
+D -> F; F -> C; D	C
+1 AND 0 OR 1 AND NOT 0	1
+A -> E; E -> F; F -> B; A	B
+C -> D; D -> F; C	F
+1 AND 1 OR NOT 1 AND 0	1
+B -> C; C -> D; D -> F; B	F
+B -> E; E -> D; B	D
+A -> E; E -> F; A	F
+C -> A; A -> E; E -> B; C	B
+E -> A; A -> F; E	F
+C -> F; F -> A; A -> B; C	B
+1 AND 0 OR 0 AND NOT 0	0
+E -> D; D -> F; F -> A; E	A
+C -> E; E -> A; A -> D; C	D
+D -> E; E -> A; A -> C; D	C
+A -> F; F -> C; A	C
+NOT 0 AND NOT 0 OR NOT 1 AND 1	1
+A -> D; D -> C; C -> F; A	F
+C -> A; A -> D; D -> F; C	F
+D -> F; F -> C; C -> A; D	A
+C -> A; A -> F; F -> D; C	D
+C -> E; E -> F; F -> A; C	A
+D -> F; F -> B; B -> A; D	A
+F -> E; E -> A; A -> D; F	D
+F -> D; D -> C; C -> B; F	B
+NOT 1 AND 0 OR NOT 0	1
+NOT 0 AND 0 OR 0 AND NOT 1	0
+NOT 1 AND 1 OR NOT 0 AND NOT 1	0
+F -> D; D -> B; F	B
+0 AND NOT 0 OR NOT 0 AND 1	1
+1 AND NOT 1 OR NOT 1 AND NOT 0	0
+B -> C; C -> D; B	D
+NOT 0 AND 1 OR 1 AND NOT 1	1
+D -> E; E -> C; D	C
+F -> E; E -> D; F	D
+NOT 1 AND 1 OR NOT 0 AND 0	0
+A -> C; C -> D; D -> E; A	E
+A -> D; D -> F; F -> B; A	B
+D -> E; E -> F; F -> C; D	C
+NOT 1 AND 0 OR NOT 0 AND 0	0
+B -> A; A -> C; B	C
+NOT 0 AND 0 OR 1 AND 0	0
+D -> C; C -> F; F -> E; D	E
+D -> F; F -> A; A -> C; D	C
+A -> C; C -> B; A	B
+NOT 1 AND NOT 1 OR 0 AND 1	0
+C -> D; D -> B; B -> A; C	A
+NOT 1 AND 0 OR 1 AND NOT 1	0
+C -> B; B -> A; A -> F; C	F
+1 AND 1 OR NOT 1 AND NOT 0	1
+A -> B; B -> D; A	D
+B -> D; D -> A; B	A
+C -> E; E -> B; C	B
+1 AND NOT 1 OR 0 AND NOT 0	0
+1 AND NOT 1 OR NOT 1 AND NOT 1	0
+NOT 0 AND 0 OR NOT 0 AND NOT 0	1
+A -> D; D -> F; F -> E; A	E
+1 AND 1 OR NOT 0 AND 0	1
+D -> F; F -> C; C -> E; D	E
+1 AND NOT 1 OR NOT 1 AND 1	0
+A -> D; D -> E; E -> B; A	B
+E -> A; A -> B; B -> D; E	D
+F -> C; C -> E; E -> A; F	A
+F -> A; A -> D; D -> E; F	E
+C -> D; D -> A; A -> E; C	E
+NOT 1 AND NOT 1 OR NOT 1 AND 1	0
+C -> F; F -> B; B -> E; C	E
+F -> D; D -> E; E -> B; F	B
+C -> A; A -> D; D -> E; C	E
+1 AND 1 OR NOT 1 AND NOT 1	1
+E -> F; F -> A; E	A
+NOT 1 AND 0 OR NOT 1 AND NOT 0	0
+D -> B; B -> F; F -> C; D	C
+A -> E; E -> F; F -> C; A	C
+1 AND NOT 1 OR NOT 1	0
+D -> A; A -> E; E -> B; D	B
+C -> E; E -> D; D -> F; C	F
+NOT 0 AND NOT 0 OR 0 AND 0	1
+NOT 0 AND NOT 1 OR 1 AND NOT 0	1
+NOT 1 AND NOT 1 OR NOT 0 AND NOT 0	1
+C -> B; B -> A; C	A
+C -> F; F -> A; A -> E; C	E
+E -> C; C -> F; F -> D; E	D
+C -> D; D -> A; A -> B; C	B
+A -> B; B -> D; D -> F; A	F
+B -> D; D -> E; B	E
+D -> C; C -> E; D	E
+E -> D; D -> B; E	B
+B -> C; C -> F; B	F
+1 AND 1 OR 0 AND NOT 0	1
+C -> B; B -> D; D -> A; C	A
+C -> A; A -> D; C	D
+E -> C; C -> F; E	F
+E -> D; D -> C; E	C
+D -> F; F -> E; E -> B; D	B
+E -> D; D -> F; F -> B; E	B
+1 AND NOT 1 OR 1 AND NOT 1	0
+NOT 0 AND NOT 1 OR 1 AND 1	1
+E -> C; C -> A; E	A
+F -> C; C -> B; B -> E; F	E
+D -> F; F -> E; E -> C; D	C
+NOT 0 AND NOT 0 OR NOT 1	1
+F -> A; A -> B; B -> E; F	E
+B -> E; E -> F; F -> D; B	D
+E -> C; C -> D; D -> B; E	B
+C -> B; B -> F; C	F
+E -> F; F -> C; C -> D; E	D
+1 AND NOT 0 OR NOT 1 AND 1	1
+0 AND NOT 0 OR NOT 1 AND NOT 1	0
+D -> C; C -> A; D	A
+NOT 1 AND 1 OR NOT 1 AND NOT 0	0
+NOT 0 AND 0 OR 1 AND 1	1
+A -> D; D -> E; A	E
+C -> E; E -> A; A -> F; C	F
+D -> E; E -> F; F -> A; D	A
+C -> F; F -> E; C	E
+1 AND NOT 1 OR NOT 0 AND 0	0
+B -> F; F -> A; A -> C; B	C
+E -> B; B -> C; C -> F; E	F
+A -> E; E -> C; C -> B; A	B
+B -> E; E -> C; C -> F; B	F
+D -> A; A -> C; C -> B; D	B
+E -> F; F -> D; D -> A; E	A
+C -> B; B -> F; F -> E; C	E
+F -> B; B -> A; F	A
+E -> A; A -> B; E	B
+NOT 1 AND NOT 0 OR NOT 0	1
+NOT 0 AND 0 OR NOT 1 AND NOT 1	0
+D -> B; B -> C; C -> E; D	E
+1 AND NOT 0 OR NOT 1 AND 0	1
+F -> E; E -> C; C -> B; F	B
+F -> E; E -> B; B -> C; F	C
+E -> F; F -> B; B -> D; E	D
+F -> D; D -> E; F	E
+0 AND NOT 1 OR NOT 0 AND 1	1
+F -> B; B -> D; F	D
+C -> E; E -> B; B -> F; C	F
+F -> B; B -> E; E -> A; F	A
+C -> D; D -> A; A -> F; C	F
+C -> A; A -> F; C	F
+B -> F; F -> A; B	A
+NOT 0 AND NOT 0 OR 1	1
+0 AND NOT 1 OR NOT 1 AND 0	0
+NOT 1 AND 0 OR NOT 0 AND 1	1
+1 AND NOT 0 OR 1 AND 0	1
+NOT 0 AND NOT 0 OR 0 AND 1	1
+A -> B; B -> C; A	C
+C -> D; D -> F; F -> E; C	E
+C -> F; F -> D; C	D
+D -> A; A -> B; B -> C; D	C
+A -> D; D -> B; B -> F; A	F
+NOT 1 AND 1 OR NOT 1 AND NOT 1	0
+A -> B; B -> E; A	E
+D -> F; F -> A; D	A
+F -> D; D -> C; C -> E; F	E
+E -> C; C -> B; B -> F; E	F
+A -> C; C -> E; E -> D; A	D
+1 AND NOT 0 OR 0 AND NOT 0	1
+NOT 0 AND 1 OR 0 AND NOT 1	1
+NOT 1 AND 1 OR NOT 0 AND 1	1
+1 AND NOT 1 OR 1 AND NOT 0	1
+NOT 0 AND 1 OR 0 AND NOT 0	1
+B -> A; A -> C; C -> D; B	D
+C -> F; F -> A; C	A
+E -> B; B -> F; F -> D; E	D
+B -> A; A -> E; E -> F; B	F
+E -> B; B -> A; A -> C; E	C
+D -> E; E -> C; C -> B; D	B
+0 AND NOT 0 OR 1 AND 1	1
+NOT 1 AND NOT 1 OR 1 AND NOT 0	1
+A -> D; D -> C; C -> E; A	E
+B -> F; F -> C; B	C
+E -> D; D -> F; F -> C; E	C
+A -> C; C -> F; F -> B; A	B
+0 AND NOT 1 OR NOT 0 AND NOT 1	0
+D -> B; B -> F; F -> A; D	A
+NOT 1 AND 1 OR 1 AND NOT 1	0
+B -> C; C -> D; D -> E; B	E
+1 AND 1 OR 1 AND NOT 1	1
+NOT 0 AND NOT 1 OR NOT 0 AND 1	1
+NOT 1 AND NOT 0 OR 1 AND NOT 1	0
+C -> F; F -> B; B -> D; C	D
+NOT 0 AND NOT 1 OR 1 AND 0	0
+D -> A; A -> F; F -> C; D	C
+B -> F; F -> C; C -> D; B	D
+B -> C; C -> D; D -> A; B	A
+A -> E; E -> C; C -> F; A	F
+NOT 0 AND NOT 1 OR NOT 0 AND NOT 1	0
+C -> E; E -> F; F -> D; C	D
+A -> B; B -> F; F -> E; A	E
+F -> A; A -> B; B -> C; F	C
+E -> B; B -> A; E	A
+C -> B; B -> E; E -> D; C	D
+NOT 1 AND NOT 0 OR NOT 1 AND 1	0
+F -> C; C -> A; A -> E; F	E
+A -> C; C -> D; D -> F; A	F
+NOT 1 AND 0 OR 0 AND NOT 1	0
+F -> D; D -> A; A -> C; F	C
+E -> B; B -> C; C -> A; E	A
+1 AND NOT 1 OR NOT 0 AND 1	1
+B -> C; C -> E; E -> A; B	A
+C -> B; B -> D; D -> E; C	E
+D -> F; F -> E; E -> A; D	A
+B -> A; A -> F; F -> C; B	C
+NOT 1 AND NOT 1 OR 1 AND NOT 1	0
+1 AND NOT 1 OR 0 AND NOT 1	0
+E -> C; C -> D; D -> F; E	F
+D -> A; A -> C; C -> F; D	F
+D -> E; E -> C; C -> F; D	F
+F -> D; D -> B; B -> C; F	C
+NOT 0 AND 0 OR 1 AND NOT 0	1
+1 AND 1 OR 1 AND NOT 0	1
+0 AND 0 OR NOT 1 AND 0	0
+A -> F; F -> B; B -> D; A	D
+NOT 0 AND NOT 1 OR NOT 1	0
+B -> D; D -> A; A -> C; B	C
+NOT 0 AND 1 OR NOT 1 AND 0	1
+B -> D; D -> F; F -> E; B	E
+B -> E; E -> D; D -> F; B	F
+A -> F; F -> C; C -> D; A	D
+NOT 0 AND 1 OR 1 AND 1	1
+B -> A; A -> C; C -> E; B	E
+E -> C; C -> B; E	B
+A -> B; B -> D; D -> E; A	E
+NOT 0 AND 1 OR NOT 0 AND NOT 0	1
+NOT 0 AND 1 OR 0 AND 0	1
+E -> A; A -> B; B -> F; E	F
+D -> B; B -> A; A -> C; D	C
+0 AND NOT 1 OR 0 AND NOT 1	0
+E -> D; D -> A; A -> B; E	B
+1 AND NOT 0 OR 0 AND NOT 1	1
+1 AND 0 OR NOT 0 AND NOT 1	0
+NOT 1 AND NOT 0 OR 0 AND NOT 0	0
+E -> A; A -> B; B -> C; E	C
+NOT 1 AND 0 OR NOT 1 AND 0	0
+D -> C; C -> E; E -> A; D	A
+A -> F; F -> D; D -> C; A	C
+0 AND NOT 0 OR 1 AND NOT 0	1
+F -> C; C -> A; A -> B; F	B
+E -> A; A -> F; F -> B; E	B
+C -> D; D -> E; E -> B; C	B
+A -> F; F -> E; A	E
+E -> C; C -> A; A -> D; E	D
+B -> E; E -> C; C -> A; B	A
+F -> A; A -> D; F	D
+D -> E; E -> A; D	A
+F -> D; D -> B; B -> E; F	E
+A -> C; C -> B; B -> D; A	D
+NOT 1 AND 1 OR 1 AND 1	1
+E -> A; A -> C; E	C
+C -> E; E -> B; B -> A; C	A
+NOT 0 AND NOT 1 OR 0 AND NOT 0	0
+A -> E; E -> D; D -> B; A	B
+NOT 1 AND 0 OR NOT 0 AND NOT 1	0
+B -> A; A -> F; F -> E; B	E
+NOT 0 AND 0 OR NOT 1 AND 1	0
+1 AND NOT 0 OR NOT 1 AND NOT 1	1
+E -> A; A -> F; F -> D; E	D
+1 AND NOT 0 OR 1 AND NOT 1	1
+B -> A; A -> F; F -> D; B	D
+E -> B; B -> F; E	F
+0 AND NOT 0 OR 0 AND NOT 0	0
+B -> D; D -> C; C -> A; B	A
+D -> E; E -> F; D	F
+A -> F; F -> E; E -> C; A	C
+B -> E; E -> A; A -> F; B	F
+NOT 0 AND NOT 1 OR NOT 0 AND NOT 0	1
+B -> F; F -> D; D -> A; B	A
+0 AND NOT 1 OR NOT 0 AND NOT 0	1
+NOT 0 AND NOT 0 OR NOT 0 AND 0	1
+D -> A; A -> F; F -> E; D	E
+0 AND 0 OR 0 AND NOT 1	0
+D -> A; A -> B; B -> E; D	E
+E -> F; F -> D; E	D
+F -> C; C -> D; D -> A; F	A
+A -> D; D -> E; E -> C; A	C
+NOT 0 AND 1 OR 1 AND NOT 0	1
+F -> E; E -> C; C -> D; F	D
+E -> A; A -> D; D -> F; E	F
+0 AND 0 OR NOT 0 AND 0	0
+C -> A; A -> B; B -> E; C	E
+D -> F; F -> A; A -> B; D	B
+1 AND NOT 0 OR NOT 0 AND 0	1
+NOT 0 AND NOT 1 OR 0 AND 1	0
+C -> F; F -> A; A -> D; C	D
+NOT 0 AND 0 OR 1 AND NOT 1	0
+F -> A; A -> D; D -> B; F	B
+E -> F; F -> D; D -> C; E	C
+B -> E; E -> C; B	C
+C -> A; A -> B; B -> D; C	D
+C -> F; F -> E; E -> B; C	B
+B -> F; F -> E; E -> A; B	A
+A -> B; B -> C; C -> E; A	E
+NOT 1 AND NOT 1 OR NOT 0	1
+NOT 0 AND NOT 1 OR 0 AND 0	0
+C -> B; B -> E; E -> A; C	A
+E -> C; C -> F; F -> B; E	B
+B -> C; C -> A; A -> F; B	F
+NOT 0 AND 0 OR NOT 1 AND 0	0
+F -> D; D -> E; E -> C; F	C
+NOT 1 AND NOT 1 OR 1 AND 0	0
+D -> B; B -> E; E -> F; D	F
+C -> A; A -> B; B -> F; C	F
+NOT 1 AND NOT 0 OR NOT 1 AND NOT 0	0
+A -> F; F -> D; D -> B; A	B
+E -> F; F -> B; B -> A; E	A
+D -> C; C -> B; B -> A; D	A
+D -> C; C -> A; A -> B; D	B
+F -> B; B -> A; A -> C; F	C
+B -> D; D -> C; C -> E; B	E
+D -> B; B -> C; C -> F; D	F
+F -> C; C -> D; D -> E; F	E
+F -> B; B -> D; D -> E; F	E
+F -> C; C -> E; E -> B; F	B
+NOT 1 AND 1 OR NOT 1 AND 0	0
+E -> B; B -> F; F -> C; E	C
+NOT 0 AND 1 OR NOT 0 AND 1	1
+0 AND NOT 1 OR NOT 0 AND 0	0
+A -> D; D -> F; F -> C; A	C
+C -> D; D -> F; F -> B; C	B
+NOT 1 AND NOT 0 OR NOT 1 AND 0	0
+F -> B; B -> D; D -> C; F	C
+F -> B; B -> A; A -> E; F	E
+1 AND NOT 1 OR NOT 0 AND NOT 0	1
+F -> D; D -> E; E -> A; F	A
+C -> E; E -> F; F -> B; C	B
+NOT 0 AND NOT 0 OR NOT 1 AND NOT 0	1
+0 AND 0 OR NOT 1 AND NOT 0	0
+F -> D; D -> A; A -> B; F	B
+D -> C; C -> E; E -> F; D	F
+D -> E; E -> B; B -> C; D	C
+E -> F; F -> D; D -> B; E	B
+F -> B; B -> C; C -> D; F	D
+A -> B; B -> E; E -> F; A	F
+A -> C; C -> B; B -> E; A	E
+A -> D; D -> C; C -> B; A	B
+A -> C; C -> F; F -> E; A	E
+A -> B; B -> F; F -> C; A	C
+NOT 1 AND NOT 1 OR 1 AND 1	1
+D -> C; C -> F; F -> A; D	A
+F -> A; A -> E; E -> D; F	D
+B -> F; F -> C; C -> E; B	E
+A -> C; C -> D; D -> B; A	B
+D -> F; F -> A; A -> E; D	E
+B -> C; C -> E; E -> D; B	D
+D -> C; C -> A; A -> F; D	F
+A -> B; B -> F; F -> D; A	D
+F -> E; E -> A; A -> C; F	C
+C -> D; D -> F; F -> A; C	A
+NOT 0 AND NOT 1 OR NOT 1 AND 1	0
+NOT 0 AND 0 OR NOT 1 AND NOT 0	0
+NOT 0 AND NOT 0 OR NOT 1 AND NOT 1	1
+NOT 1 AND 1 OR 0 AND NOT 1	0
+A -> B; B -> E; E -> D; A	D
+C -> F; F -> D; D -> E; C	E
+D -> E; E -> C; C -> A; D	A
+NOT 0 AND NOT 0 OR NOT 0 AND 1	1
+C -> B; B -> F; F -> D; C	D
+E -> B; B -> C; C -> D; E	D
+B -> F; F -> A; A -> E; B	E
+B -> D; D -> F; F -> A; B	A
+NOT 0 AND NOT 0 OR NOT 0 AND NOT 1	1
+A -> D; D -> B; B -> C; A	C
+E -> D; D -> C; C -> F; E	F
+0 AND NOT 0 OR 1 AND NOT 1	0
+NOT 1 AND NOT 0 OR NOT 0 AND 0	0
+NOT 0 AND NOT 0 OR NOT 1 AND 0	1
+E -> D; D -> B; B -> A; E	A
+F -> E; E -> D; D -> C; F	C
+0 AND NOT 1 OR NOT 1 AND NOT 0	0
+B -> F; F -> D; D -> C; B	C
+E -> A; A -> D; D -> B; E	B
+C -> E; E -> A; A -> B; C	B
+0 AND 0 OR NOT 0 AND NOT 0	1
+NOT 0 AND 1 OR NOT 1 AND 1	1
+A -> E; E -> C; C -> D; A	D
+E -> D; D -> A; A -> F; E	F
+F -> D; D -> A; A -> E; F	E
+1 AND NOT 1 OR NOT 0 AND NOT 1	0
+1 AND NOT 0 OR 1 AND NOT 0	1
+A -> E; E -> B; B -> C; A	C
+B -> F; F -> A; A -> D; B	D
+E -> C; C -> F; F -> A; E	A
+F -> E; E -> D; D -> B; F	B
+D -> B; B -> F; F -> E; D	E
+C -> F; F -> E; E -> D; C	D
+D -> A; A -> E; E -> F; D	F
+NOT 1 AND NOT 1 OR 0 AND NOT 0	0
+NOT 0 AND NOT 1 OR NOT 1 AND NOT 0	0
+F -> A; A -> C; C -> D; F	D
+C -> D; D -> B; B -> F; C	F
+E -> F; F -> A; A -> C; E	C
+NOT 1 AND NOT 0 OR NOT 0 AND 1	1
+E -> B; B -> D; D -> C; E	C
+A -> B; B -> C; C -> F; A	F
+A -> F; F -> B; B -> E; A	E
+NOT 1 AND NOT 0 OR NOT 0 AND NOT 0	1
+1 AND NOT 0 OR NOT 0 AND NOT 1	1
+E -> B; B -> A; A -> F; E	F
+NOT 0 AND NOT 0 OR 0 AND NOT 0	1
+D -> C; C -> B; B -> F; D	F
+D -> B; B -> C; D	C
+F -> D; D -> C; C -> A; F	A
+E -> C; C -> D; D -> A; E	A
+F -> E; E -> B; B -> D; F	D
+D -> C; C -> A; A -> E; D	E
+B -> A; A -> E; E -> D; B	D
+A -> F; F -> C; C -> E; A	E
+1 AND NOT 0 OR NOT 1 AND NOT 0	1
+E -> B; B -> D; D -> A; E	A
+C -> D; D -> E; E -> A; C	A
+C -> B; B -> E; E -> F; C	F
+0 AND NOT 0 OR NOT 0 AND NOT 0	1
+D -> E; E -> F; F -> B; D	B
+B -> D; D -> E; E -> A; B	A
+E -> F; F -> A; A -> B; E	B
+NOT 1 AND NOT 0 OR 0 AND 1	0
+B -> C; C -> E; E -> F; B	F
+E -> A; A -> D; D -> C; E	C
+NOT 1 AND NOT 1 OR NOT 0 AND NOT 1	0
+NOT 1 AND NOT 0 OR 0 AND NOT 1	0
+NOT 1 AND NOT 1 OR NOT 1 AND 0	0
+B -> F; F -> E; E -> D; B	D
+B -> A; A -> C; C -> F; B	F
+D -> A; A -> E; E -> C; D	C
+B -> A; A -> D; D -> C; B	C
+D -> F; F -> B; B -> C; D	C
+B -> E; E -> D; D -> C; B	C
+F -> C; C -> A; A -> D; F	D
+F -> B; B -> C; C -> A; F	A
+D -> E; E -> A; A -> F; D	F
+F -> A; A -> E; E -> B; F	B
+E -> F; F -> C; C -> B; E	B
+B -> E; E -> A; A -> D; B	D
+NOT 1 AND NOT 0 OR NOT 1 AND NOT 1	0
+A -> F; F -> B; B -> C; A	C
+B -> F; F -> D; D -> E; B	E
+NOT 0 AND NOT 1 OR NOT 0 AND 0	0
+C -> F; F -> E; E -> A; C	A
+E -> D; D -> A; A -> C; E	C
+D -> B; B -> A; A -> F; D	F
+E -> D; D -> C; C -> A; E	A
+NOT 0 AND 1 OR NOT 1 AND NOT 1	1
+B -> D; D -> A; A -> E; B	E
+D -> B; B -> A; A -> E; D	E
+D -> C; C -> B; B -> E; D	E
+E -> C; C -> A; A -> F; E	F
+A -> F; F -> E; E -> D; A	D
+NOT 0 AND NOT 1 OR NOT 1 AND 0	0
+C -> A; A -> D; D -> B; C	B
+D -> A; A -> C; C -> E; D	E
+C -> E; E -> B; B -> D; C	D
+NOT 0 AND NOT 0 OR NOT 0 AND NOT 0	1
+E -> C; C -> B; B -> D; E	D
+E -> C; C -> B; B -> A; E	A
+B -> C; C -> F; F -> A; B	A
+A -> B; B -> D; D -> C; A	C
+F -> C; C -> D; D -> B; F	B
+D -> E; E -> B; B -> F; D	F
+F -> A; A -> C; C -> E; F	E
+E -> A; A -> F; F -> C; E	C
+E -> B; B -> A; A -> D; E	D
+E -> D; D -> C; C -> B; E	B
+C -> A; A -> E; E -> D; C	D
+C -> A; A -> F; F -> E; C	E
+NOT 1 AND 0 OR NOT 0 AND NOT 0	1
+NOT 1 AND NOT 1 OR 0 AND NOT 1	0
+NOT 1 AND NOT 1 OR NOT 1 AND NOT 0	0
+NOT 0 AND NOT 0 OR 1 AND NOT 1	1
